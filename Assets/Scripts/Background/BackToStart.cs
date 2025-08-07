@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BackToStart : MonoBehaviour
 {
-    [SerializeField] Vector2 _startPosition;
-    [SerializeField] Vector2 _endPosition;
+    [SerializeField] Vector3 _startPosition;
+    [SerializeField] Vector3 _endPosition;
     // Start is called before the first frame update
     void Start()
     {
